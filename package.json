@@ -1,0 +1,34 @@
+{
+  "name": "todolist4747kowshik",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "4",
+    "http-errors": "1",
+    "lodash": "^4.17.21",
+    "morgan": "1.9"
+  },
+  "scripts": {
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KowshikI87/todolist_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KowshikI87/todolist_project/issues"
+  },
+  "homepage": "https://github.com/KowshikI87/todolist_project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
+}
